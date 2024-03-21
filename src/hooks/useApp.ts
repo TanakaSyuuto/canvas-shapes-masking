@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-
 const useApp = () => {
   // 図形の情報
   const drawRectProps = {
@@ -219,7 +218,7 @@ const useApp = () => {
         return;
       }
     }, 100);
-  }, [getMaskingContext, concatCanvas, getResultContext, imagedataToImage]);
+  }, [img, window, getMaskingContext, concatCanvas, getResultContext, imagedataToImage]);
 
   return {
     onDown,
