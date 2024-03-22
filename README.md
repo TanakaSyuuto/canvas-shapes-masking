@@ -19,3 +19,8 @@ ReactとTypescriptを使用しています。
 `$ npm install`
 
 `$ npm start`
+
+# 参考にさせていただいた記事
+[canvasに長方形を描く](https://knap.jp/blog/canvas_drew_rect)
+
+[[HTML5] 複数のCanvasを合成する](https://blog.katsubemakito.net/html5/canvas-concat)
