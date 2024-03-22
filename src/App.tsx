@@ -1,4 +1,3 @@
-import { memo } from 'react';
 import useApp from './hooks/useApp';
 import './App.css';
 
