@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import useApp from './hooks/useApp';
 import './App.css';
 
@@ -23,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default memo(App);
